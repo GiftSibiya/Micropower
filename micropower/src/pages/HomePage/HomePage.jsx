@@ -10,6 +10,10 @@ import "./HomePage.css";
 
 //--//
 
+// Import assets //
+
+//--//
+
 function HomePage() {
   return (
     <body>
@@ -49,11 +53,9 @@ function HomePage() {
                 class="search__bar"
                 name="search"
                 id="search"
-                placeholder="Search by keywords or part number"
+                placeholder="Search by keyword or part number"
               />
-              <button class="search__btn">
-                <i class="bx bx-search"></i>
-              </button>
+              <button class="search__btn"></button>
             </div>
           </div>
         </div>
